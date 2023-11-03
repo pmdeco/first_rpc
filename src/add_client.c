@@ -23,7 +23,7 @@ addprog_1(char *host, int x, int y)
 #endif	/* DEBUG */
 
     add_1_arg.a = x;
-    add_2_arg.b = y;
+    add_1_arg.b = y;
 
 	result_1 = add_1(&add_1_arg, clnt);
 	if (result_1 == (int *) NULL) {
