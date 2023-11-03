@@ -6,7 +6,7 @@
  * Remote vrs of printmsg
  */
 
-int * printmessage_1(char **msg)
+int * printmessage_1(char **msg, struct svc_req *req)
 {
     static int result;
     FILE *fp;
